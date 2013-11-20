@@ -1,29 +1,29 @@
 # Improved ask method
-# Using return instead of the last answer variable
-# def ask question
-# 	while true
-# 		puts question
-# 		reply = gets.chomp.downcase
-# 		if (reply == 'yes' || reply == 'no')
-# 			if reply == 'yes'
-# 				return true
-# 			else
-# 				return false
-# 			end
-# 			break
-# 		else
-# 			puts 'Please answer "yes" or "no".'
-# 		end
-# 	end
-# end
-# puts 'Thanks for taking the quiz!'
-# puts
-# ask 'Do you like eating tacos?'
-# ask 'Do you like eating burritos?'
-# wets_bed = ask 'Do you wet the bed?'
-# puts 'That\'s all the questions! Thanks!'
-# puts
-# puts wets_bed
+Using return instead of the last answer variable
+def ask question
+	while true
+		puts question
+		reply = gets.chomp.downcase
+		if (reply == 'yes' || reply == 'no')
+			if reply == 'yes'
+				return true
+			else
+				return false
+			end
+			break
+		else
+			puts 'Please answer "yes" or "no".'
+		end
+	end
+end
+puts 'Thanks for taking the quiz!'
+puts
+ask 'Do you like eating tacos?'
+ask 'Do you like eating burritos?'
+wets_bed = ask 'Do you wet the bed?'
+puts 'That\'s all the questions! Thanks!'
+puts
+puts wets_bed
 
 # Old-school Roman numerals
 # 9 would return VIIII
