@@ -1,5 +1,5 @@
 # Improved ask method
-Using return instead of the last answer variable
+# Using return instead of the last answer variable
 def ask question
 	while true
 		puts question
@@ -41,7 +41,7 @@ def osrn num
 	end
 	letters = letters + 'I'*num
 end
-puts osrn 2400	# 2554 -- MMDLIIII
+puts osrn 2014	# 2554 -- MMDLIIII
 								# 2400 -- MMCCCC
 
 # Modern Roman numerals
@@ -65,5 +65,5 @@ def mrn num
 	end
 	letters = letters + 'I'*num
 end
-puts mrn 2403
+puts mrn 2014
 

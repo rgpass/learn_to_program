@@ -7,25 +7,25 @@ end
 
 # Deaf Grandma
 # Responds screaming if you don't scream your input
-# count = 0
-# while true
-# 	puts 'WHAT DO YOU WANT, SONNY?'
-# 	request = gets.chomp
-# 	if request == 'bye'.upcase
-# 		count += 1
-# 		if count == 3
-# 			break
-# 		end
-# 	elsif request == request.upcase
-# 		# Normal, but screaming, response
-# 		randomNum = 1930 + rand(21)
-# 		puts 'NO, NOT SINCE ' + randomNum.to_s
-# 	elsif
-# 		# Yells at you to speak up
-# 		puts 'HUH?! SPEAK UP, SONNY!'
-# 	end
-# end
-# puts 'HAVE A GOOD DAY, SONNY!'
+count = 0
+while true
+	puts 'WHAT DO YOU WANT, SONNY?'
+	request = gets.chomp
+	if request == 'bye'.upcase
+		count += 1
+		if count == 3
+			break
+		end
+	elsif request == request.upcase
+		# Normal, but screaming, response
+		randomNum = 1930 + rand(21)
+		puts 'NO, NOT SINCE ' + randomNum.to_s
+	elsif
+		# Yells at you to speak up
+		puts 'HUH?! SPEAK UP, SONNY!'
+	end
+end
+puts 'HAVE A GOOD DAY, SONNY!'
 
 puts 'Starting year?'
 start = gets.chomp.to_i
